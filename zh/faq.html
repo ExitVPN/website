@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7fafc" />
+  <meta name="description" content="ExitVPN 提供快速、簡單、無廣告的 VPN 體驗，幫助你在任何網路環境更安心地連線。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=RocknRoll+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+
+  <title>ExitVPN | 常見問答</title>
+</head>
+
+<body data-page="faq">
+  <a class="skip" href="#main">跳到主要內容</a>
+  
+<header class="header" id="top">
+  <div class="container header__inner">
+    <a class="brand" href="./index.html" aria-label="ExitVPN 首頁">
+      <img class="brand__logo" src="./logo-full.png" alt="ExitVPN" />
+    </a>
+
+    <nav class="nav" aria-label="主選單">
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav__toggleBars" aria-hidden="true"></span>
+        <span class="sr">選單</span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a data-nav="home" href="./index.html">首頁</a></li>
+        <li><a data-nav="about" href="./about.html">關於我們</a></li>
+        <li><a data-nav="faq" href="./faq.html">常見問答</a></li>
+        <li><a data-nav="privacy" href="./privacy.html">隱私權政策</a></li>
+        <li class="nav__cta">
+          <a class="btn btn--primary" href="./index.html#download">下載</a>
+        </li>
+        <li class="nav__theme">
+          <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="切換主題">
+            <span id="themeIcon" aria-hidden="true">☀</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <main id="main">
+    <section class="pageHero">
+      <div class="container pageHero__inner">
+        <h1>常見問答</h1>
+        <p class="muted">這裡整理了常見問題與快速解答。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="faq">
+          <details class="faq__item" open>
+            <summary>ExitVPN 是免費的嗎？</summary>
+            <p>目前頁面內容以示意為主。你可以在此處填入實際的方案與費用說明。</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>使用 VPN 會變慢嗎？</summary>
+            <p>VPN 會增加一些傳輸成本，但良好的路由與協議選擇通常能保持順暢。若覺得慢，可嘗試切換不同設定檔。</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>要選哪一種協議？</summary>
+            <p>建議先用「自動」。如果你知道自己的網路環境，可選擇在該環境下更穩、更快的協議。</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>我需要註冊帳號嗎？</summary>
+            <p>依你的實際產品設計調整。若需要登入，可在此補充註冊與使用流程。</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>我可以在多台裝置使用嗎？</summary>
+            <p>若你支援多裝置登入，可在此說明數量限制與適用平台。</p>
+          </details>
+
+          <details class="faq__item">
+            <summary>遇到問題要怎麼求助？</summary>
+            <p>請寄信到 <a href="mailto:support@exitvpn.com">support@exitvpn.com</a>，或在此放上你的客服中心連結。</p>
+          </details>
+        </div>
+
+        <div class="callout callout--tight">
+          <div class="callout__inner">
+            <div>
+              <h3>資料與隱私相關問題</h3>
+              <p class="muted">可先閱讀隱私權政策，了解收集與使用方式。</p>
+            </div>
+            <a class="btn btn--secondary" href="./privacy.html">隱私權政策</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__left">
+      <div class="brand brand--footer">
+        <img class="brand__logo brand__logo--footer" src="./logo-full.png" alt="ExitVPN" />
+      </div>
+      <p class="muted">快速、簡單、無廣告的 VPN 體驗。</p>
+    </div>
+
+    <div class="footer__right">
+      <a href="./index.html#features">特色</a>
+      <a href="./index.html#download">下載</a>
+      <a href="./privacy.html">隱私權政策</a>
+      <a href="mailto:support@exitvpn.com">客服</a>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <small class="muted">© <span id="year"></span> ExitVPN. All rights reserved.</small>
+  </div>
+</footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
