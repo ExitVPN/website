@@ -15,30 +15,35 @@
 </head>
 
 <body data-page="home">
-  <a class="skip" href="#main">跳到主要內容</a>
+  <a class="skip" href="#main">Skip to main content</a>
   
 <header class="header" id="top">
   <div class="container header__inner">
-    <a class="brand" href="./index.html" aria-label="ExitVPN 首頁">
+    <a class="brand" href="./index.html" aria-label="ExitVPN Home">
       <img class="brand__logo" src="./logo-full.png" alt="ExitVPN" />
     </a>
 
-    <nav class="nav" aria-label="主選單">
+    <nav class="nav" aria-label="Primary">
       <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
         <span class="nav__toggleBars" aria-hidden="true"></span>
-        <span class="sr">選單</span>
+        <span class="sr">Menu</span>
       </button>
 
       <ul class="nav__menu" id="navMenu">
-        <li><a data-nav="home" href="./index.html">首頁</a></li>
-        <li><a data-nav="about" href="./about.html">關於我們</a></li>
-        <li><a data-nav="faq" href="./faq.html">常見問答</a></li>
-        <li><a data-nav="privacy" href="./privacy.html">隱私權政策</a></li>
+        <li><a data-nav="home" href="./index.html">Home</a></li>
+        <li><a data-nav="about" href="./about.html">About</a></li>
+        <li><a data-nav="faq" href="./faq.html">FAQ</a></li>
+        <li><a data-nav="privacy" href="./privacy.html">Privacy</a></li>
         <li class="nav__cta">
-          <a class="btn btn--primary" href="./index.html#download">下載</a>
-        </li>
+          <a class="btn btn--primary" href="./index.html#download">Download</a>
+        </li><li class="nav__lang" aria-label="Language">
+  <a class="langLink" href="./zh/index.html">中文</a>
+  <span class="langSep" aria-hidden="true">|</span>
+  <a class="langLink is-active" href="./index.html">EN</a>
+</li>
+
         <li class="nav__theme">
-          <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="切換主題">
+          <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Toggle theme">
             <span id="themeIcon" aria-hidden="true">☀</span>
           </button>
         </li>
@@ -52,30 +57,30 @@
     <section class="hero">
       <div class="container hero__inner">
         <div class="hero__copy">
-          <p class="eyebrow">快速 • 簡單 • 無廣告</p>
-          <h1>更安心的上網方式</h1>
+          <p class="eyebrow">Fast • Simple • No Ads</p>
+          <h1>A safer way to go online</h1>
           <p class="lead">
-            ExitVPN 讓你用更少的設定，獲得更穩定、更私密的連線體驗。
-            一鍵連線，隨時切換，保持順暢。
+            ExitVPN gives you a more stable, more private connection with fewer settings.
+            Connect with one tap, switch anytime, and stay smooth.
           </p>
 
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#download">立即下載</a>
-            <a class="btn btn--secondary" href="#features">了解特色</a>
+            <a class="btn btn--primary" href="#download">Download</a>
+            <a class="btn btn--secondary" href="#features">See features</a>
           </div>
 
           <div class="trust">
             <div class="trust__item">
-              <span class="trust__kpi">1 次點擊</span>
-              <span class="trust__label">立即連線</span>
+              <span class="trust__kpi">1 tap</span>
+              <span class="trust__label">Connect instantly</span>
             </div>
             <div class="trust__item">
-              <span class="trust__kpi">多種協議</span>
-              <span class="trust__label">彈性選擇</span>
+              <span class="trust__kpi">Multi-protocol</span>
+              <span class="trust__label">Flexible choices</span>
             </div>
             <div class="trust__item">
-              <span class="trust__kpi">無廣告</span>
-              <span class="trust__label">乾淨體驗</span>
+              <span class="trust__kpi">No ads</span>
+              <span class="trust__label">Clean experience</span>
             </div>
           </div>
         </div>
@@ -93,12 +98,12 @@
                 <div class="power__ring">
                   <div class="power__icon">⏻</div>
                 </div>
-                <div class="power__text">點擊連線</div>
+                <div class="power__text">Tap to connect</div>
               </div>
               <div class="chips">
-                <span class="chip">自動</span>
-                <span class="chip">快速</span>
-                <span class="chip">安全</span>
+                <span class="chip">Automatic</span>
+                <span class="chip">Fast</span>
+                <span class="chip">Safe</span>
               </div>
             </div>
           </div>
@@ -113,44 +118,44 @@
     <section class="section" id="features">
       <div class="container">
         <div class="section__head">
-          <h2>你需要的 VPN 功能都在這裡</h2>
-          <p class="muted">以速度、穩定與易用性為核心，專注讓你日常使用更順手。</p>
+          <h2>Everything you need in a VPN</h2>
+          <p class="muted">Built around speed, stability, and ease of use for everyday browsing.</p>
         </div>
 
         <div class="grid cards">
           <article class="card">
-            <h3>一鍵上手</h3>
-            <p>清爽介面與合理預設，打開就能用。</p>
+            <h3>One-tap start</h3>
+            <p>A clean UI and sensible defaults. Open and go.</p>
           </article>
           <article class="card">
-            <h3>穩定快速</h3>
-            <p>針對常見網路環境優化，瀏覽與串流更流暢。</p>
+            <h3>Stable and fast</h3>
+            <p>Optimized for common networks so browsing and streaming stay smooth.</p>
           </article>
           <article class="card">
-            <h3>多種協議</h3>
-            <p>依照網路狀況選擇最適合的連線方式。</p>
+            <h3>Multi-protocol</h3>
+            <p>Choose the best connection method based on your network conditions.</p>
           </article>
           <article class="card">
-            <h3>連線設定檔</h3>
-            <p>可建立不同情境的設定，快速切換。</p>
+            <h3>Connection profiles</h3>
+            <p>Create profiles for different scenarios and switch quickly.</p>
           </article>
           <article class="card">
-            <h3>免費且無廣告</h3>
-            <p>沒有干擾內容，專注連線品質。</p>
+            <h3>Free and No ads</h3>
+            <p>No distractions. Focus on connection quality.</p>
           </article>
           <article class="card">
-            <h3>隱私優先</h3>
-            <p>在公共 Wi‑Fi 或不可信網路中更安心。</p>
+            <h3>Privacy first</h3>
+            <p>More confidence on public Wi‑Fi and untrusted networks.</p>
           </article>
         </div>
 
         <div class="callout">
           <div class="callout__inner">
             <div>
-              <h3>我們如何處理個人資料？</h3>
-              <p class="muted">請參考隱私權政策，了解收集、使用與保護方式。</p>
+              <h3>How do we handle your data?</h3>
+              <p class="muted">Please refer to the Privacy Policy to learn how we collect, use, and protect your data.</p>
             </div>
-            <a class="btn btn--secondary" href="./privacy.html">查看隱私權政策</a>
+            <a class="btn btn--secondary" href="./privacy.html">Privacy Policy</a>
           </div>
         </div>
       </div>
@@ -159,30 +164,30 @@
     <section class="section section--alt" id="how">
       <div class="container">
         <div class="section__head">
-          <h2>怎麼使用</h2>
-          <p class="muted">流程很簡單，三步完成。</p>
+          <h2>How it works</h2>
+          <p class="muted">It takes three simple steps.</p>
         </div>
 
         <ol class="steps">
           <li class="step">
             <div class="step__n">1</div>
             <div class="step__body">
-              <h3>下載並開啟</h3>
-              <p>支援 iOS 與 Android，安裝後即可開始。</p>
+              <h3>Download</h3>
+              <p>Available for iOS and Android. Install and start right away.</p>
             </div>
           </li>
           <li class="step">
             <div class="step__n">2</div>
             <div class="step__body">
-              <h3>選擇設定檔</h3>
-              <p>建議先用「自動」，需要時再切換其他選項。</p>
+              <h3>Choose a profile</h3>
+              <p>Start with Auto, then switch if you need a different option.</p>
             </div>
           </li>
           <li class="step">
             <div class="step__n">3</div>
             <div class="step__body">
-              <h3>點擊連線</h3>
-              <p>連線成功後，你的流量會更安全地傳輸。</p>
+              <h3>Tap to connect</h3>
+              <p>Once connected, your traffic is transmitted more securely.</p>
             </div>
           </li>
         </ol>
@@ -193,36 +198,41 @@
       <div class="container">
         <div class="download">
           <div class="download__copy">
-            <h2>下載 ExitVPN</h2>
-            <p class="muted">下方按鈕目前是示意連結，部署前請替換成正式商店網址。</p>
+            <h2>Download ExitVPN</h2>
 
             <div class="download__buttons">
-              <a class="store store--ios" href="#" aria-label="前往 App Store（示意）">
-                <span class="store__small">Download on the</span>
-                <span class="store__big">App Store</span>
+              <a class="store store--ios" href="https://apps.apple.com/in/app/exitvpn/id6523427343" aria-label="Go to App Store">
+                <span class="store__small">Get app for</span>
+                <span class="store__big">iOS (Apple App Store)</span>
               </a>
 
-              <a class="store store--android" href="#" aria-label="前往 Google Play（示意）">
-                <span class="store__small">Get it on</span>
-                <span class="store__big">Google Play</span>
+              <a class="store store--android" href="https://play.google.com/store/apps/details?id=com.exitvpn" aria-label="Go to Google Play">
+                <span class="store__small">Get app for</span>
+                <span class="store__big">Android (Google Play)</span>
               </a>
-            </div>
 
-            <div class="download__note">
-              <p><strong>提示:</strong> 若你也提供 APK 直下載，可加第三個按鈕。</p>
+              <a class="store store--android" href="https://www.fileduffel.com/exitvpn/exitvpn-win-current.exe" aria-label="Download Windows App">
+                <span class="store__small">Download app for</span>
+                <span class="store__big">Microsoft Windows</span>
+              </a>
+
+              <a class="store store--android" href="https://www.fileduffel.com/exitvpn/exitvpn-android-current.apk" aria-label="Download APK">
+                <span class="store__small">Download</span>
+                <span class="store__big">Android APK</span>
+              </a>
             </div>
           </div>
 
           <div class="download__panel">
             <div class="panel">
-              <h3>你會得到</h3>
+              <h3>You get</h3>
               <ul class="list">
-                <li>一鍵連線與清爽介面</li>
-                <li>多種協議與設定檔</li>
-                <li>無廣告使用體驗</li>
-                <li>公共 Wi‑Fi 更安心</li>
+                <li>One-tap connection and a clean, uncluttered interface.</li>
+                <li>Multi-protocol.</li>
+                <li>No ads experience.</li>
+                <li>Feel safer on public Wi-Fi.</li>
               </ul>
-              <a class="btn btn--primary btn--full" href="./faq.html">查看常見問答</a>
+              <a class="btn btn--primary btn--full" href="./faq.html">FAQ</a>
             </div>
           </div>
         </div>
@@ -237,14 +247,14 @@
       <div class="brand brand--footer">
         <img class="brand__logo brand__logo--footer" src="./logo-full.png" alt="ExitVPN" />
       </div>
-      <p class="muted">快速、簡單、無廣告的 VPN 體驗。</p>
+      <p class="muted">Fast, simple, ad-free VPN experience.</p>
     </div>
 
     <div class="footer__right">
-      <a href="./index.html#features">特色</a>
-      <a href="./index.html#download">下載</a>
-      <a href="./privacy.html">隱私權政策</a>
-      <a href="mailto:support@exitvpn.com">客服</a>
+      <a href="./index.html#features">Features</a>
+      <a href="./index.html#download">Download</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="mailto:support@exitvpn.com">Support</a>
     </div>
   </div>
 

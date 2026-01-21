@@ -1,44 +1,49 @@
 <!doctype html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f7fafc" />
-  <meta name="description" content="ExitVPN 提供快速、簡單、無廣告的 VPN 體驗，幫助你在任何網路環境更安心地連線。" />
+  <meta name="description" content="ExitVPN provides a fast, simple, ad-free VPN experience, helping you connect with greater peace of mind on any network." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=RocknRoll+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 
-  <title>ExitVPN | 關於我們</title>
+  <title>ExitVPN | About</title>
 </head>
 
 <body data-page="about">
-  <a class="skip" href="#main">跳到主要內容</a>
+  <a class="skip" href="#main">Skip to main content</a>
   
 <header class="header" id="top">
   <div class="container header__inner">
-    <a class="brand" href="./index.html" aria-label="ExitVPN 首頁">
+    <a class="brand" href="./index.html" aria-label="ExitVPN Home">
       <img class="brand__logo" src="./logo-full.png" alt="ExitVPN" />
     </a>
 
-    <nav class="nav" aria-label="主選單">
+    <nav class="nav" aria-label="Primary">
       <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
         <span class="nav__toggleBars" aria-hidden="true"></span>
-        <span class="sr">選單</span>
+        <span class="sr">Menu</span>
       </button>
 
       <ul class="nav__menu" id="navMenu">
-        <li><a data-nav="home" href="./index.html">首頁</a></li>
-        <li><a data-nav="about" href="./about.html">關於我們</a></li>
-        <li><a data-nav="faq" href="./faq.html">常見問答</a></li>
-        <li><a data-nav="privacy" href="./privacy.html">隱私權政策</a></li>
+        <li><a data-nav="home" href="./index.html">Home</a></li>
+        <li><a data-nav="about" href="./about.html">About</a></li>
+        <li><a data-nav="faq" href="./faq.html">FAQ</a></li>
+        <li><a data-nav="privacy" href="./privacy.html">Privacy</a></li>
         <li class="nav__cta">
-          <a class="btn btn--primary" href="./index.html#download">下載</a>
-        </li>
+          <a class="btn btn--primary" href="./index.html#download">Download</a>
+        </li><li class="nav__lang" aria-label="Language">
+  <a class="langLink" href="./zh/about.html">中文</a>
+  <span class="langSep" aria-hidden="true">|</span>
+  <a class="langLink is-active" href="./about.html">EN</a>
+</li>
+
         <li class="nav__theme">
-          <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="切換主題">
+          <button class="btn btn--ghost" id="themeToggle" type="button" aria-label="Toggle theme">
             <span id="themeIcon" aria-hidden="true">☀</span>
           </button>
         </li>
@@ -51,10 +56,10 @@
   <main id="main">
     <section class="pageHero">
       <div class="container pageHero__inner">
-        <h1>關於我們</h1>
+        <h1>About</h1>
         <p class="muted">
-          我們相信上網的自由與隱私應該更容易取得。
-          ExitVPN 以穩定、速度與易用性為核心，打造日常能放心使用的 VPN。
+          We believe online freedom and privacy should be easier to access.
+          Built around stability, speed, and ease of use, ExitVPN is a VPN you can rely on every day.
         </p>
       </div>
     </section>
@@ -63,20 +68,19 @@
       <div class="container">
         <div class="twoCol">
           <div class="card card--flat">
-            <h2>我們的使命</h2>
+            <h2>Our mission</h2>
             <p class="muted">
-              讓每個人在任何網路環境，都能更安全、更私密地連線，
-              並以簡單的操作完成複雜的安全防護。
+              Enable everyone to connect more safely and privately on any network, using simple controls to deliver robust security protection.
             </p>
           </div>
 
           <div class="card card--flat">
-            <h2>我們重視的價值</h2>
+            <h2>What we value</h2>
             <ul class="list">
-              <li><strong>簡單:</strong> 介面清楚，流程直覺。</li>
-              <li><strong>可靠:</strong> 優先解決穩定性與連線品質。</li>
-              <li><strong>透明:</strong> 清楚說明我們做什麼、怎麼做。</li>
-              <li><strong>尊重隱私:</strong> 以最小必要原則設計資料處理。</li>
+              <li><strong>Simple:</strong> Clear UI and intuitive flow.</li>
+              <li><strong>Reliable:</strong> We prioritize stability and connection quality.</li>
+              <li><strong>Transparent:</strong> We explain what we do and how we do it.</li>
+              <li><strong>Privacy-respecting:</strong> We follow data minimization principles.</li>
             </ul>
           </div>
         </div>
@@ -84,10 +88,10 @@
         <div class="callout">
           <div class="callout__inner">
             <div>
-              <h3>關於資料與隱私的更多細節</h3>
-              <p class="muted">請閱讀隱私權政策。</p>
+              <h3>More about data and privacy</h3>
+              <p class="muted">Please review the Privacy Policy.</p>
             </div>
-            <a class="btn btn--secondary" href="./privacy.html">隱私權政策</a>
+            <a class="btn btn--secondary" href="./privacy.html">Privacy</a>
           </div>
         </div>
       </div>
@@ -96,28 +100,28 @@
     <section class="section section--alt">
       <div class="container">
         <div class="section__head">
-          <h2>我們怎麼做</h2>
-          <p class="muted">用更好的工程與產品設計，讓 VPN 更符合日常需求。</p>
+          <h2>How we build it</h2>
+          <p class="muted">Better engineering and product design, tailored for everyday needs.</p>
         </div>
 
         <div class="grid cards">
           <article class="card">
-            <h3>更好的預設</h3>
-            <p>讓大多數人不需要研究設定，也能獲得良好體驗。</p>
+            <h3>Better defaults</h3>
+            <p>Great experience without digging into settings.</p>
           </article>
           <article class="card">
-            <h3>彈性連線策略</h3>
-            <p>提供多種協議與設定檔，面對不同網路環境更有韌性。</p>
+            <h3>Flexible connection strategy</h3>
+            <p>Provides multi-protocol support and connection profiles, making it more resilient across different network environments.</p>
           </article>
           <article class="card">
-            <h3>持續迭代</h3>
-            <p>針對效能、穩定與可用性持續優化，讓產品更成熟。</p>
+            <h3>Continuous improvement</h3>
+            <p>We keep improving performance, stability, and usability.</p>
           </article>
         </div>
 
         <div class="actionsRow">
-          <a class="btn btn--primary" href="./index.html#download">前往下載</a>
-          <a class="btn btn--secondary" href="./faq.html">查看常見問答</a>
+          <a class="btn btn--primary" href="./index.html#download">Download</a>
+          <a class="btn btn--secondary" href="./faq.html">FAQ</a>
         </div>
       </div>
     </section>
@@ -130,14 +134,14 @@
       <div class="brand brand--footer">
         <img class="brand__logo brand__logo--footer" src="./logo-full.png" alt="ExitVPN" />
       </div>
-      <p class="muted">快速、簡單、無廣告的 VPN 體驗。</p>
+      <p class="muted">Fast, simple, ad-free VPN experience.</p>
     </div>
 
     <div class="footer__right">
-      <a href="./index.html#features">特色</a>
-      <a href="./index.html#download">下載</a>
-      <a href="./privacy.html">隱私權政策</a>
-      <a href="mailto:support@exitvpn.com">客服</a>
+      <a href="./index.html#features">Features</a>
+      <a href="./index.html#download">Download</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="mailto:support@exitvpn.com">Support</a>
     </div>
   </div>
 

@@ -27,3 +27,9 @@ Default is light mode. Users can toggle to dark mode via the moon/sun button in 
 
 ## Logo
 The site uses `logo-full.png` for the header and footer brand.
+
+
+## Languages
+- Chinese pages live at `/`.
+- English pages live at `/en/`.
+Use the language switcher in the header to switch languages.

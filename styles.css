@@ -611,3 +611,30 @@ p{ line-height: 1.6; }
   .phone{ width: 260px; height: 500px; }
   .doc{ padding: 16px; }
 }
+
+
+/* Language switcher */
+.nav__lang{
+  display:flex;
+  align-items:center;
+  gap: 8px;
+  padding: 0 6px;
+}
+.langLink{
+  color: var(--muted);
+  font-weight: 900;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.langLink:hover{
+  color: var(--text);
+}
+.langLink.is-active{
+  color: var(--text);
+  background: color-mix(in oklab, var(--card2) 90%, transparent);
+  border-color: var(--border);
+}
+.langSep{
+  color: var(--muted);
+}
